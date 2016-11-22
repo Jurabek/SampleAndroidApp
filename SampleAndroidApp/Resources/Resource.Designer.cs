@@ -57,6 +57,22 @@ namespace SampleAndroidApp
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int myButton = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
